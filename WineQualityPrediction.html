@@ -4,10 +4,11 @@
 <head>
 
 
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Hand Gesture Recognition</title>
+  <title>Digit Recognizer Project</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -32,6 +33,8 @@
 
 
 </head>
+
+
 
 <body>
 
@@ -64,9 +67,6 @@
     </div>
   </header><!-- End Header -->
 
-
-
-
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -74,16 +74,14 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h3>Real-Time Hand Gesture Recognition System using CNN</h3>
+          <h3>Wine Quality Prediction</h3>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li><a href="GreenPalate.html">Next Project</a></li>
+            <li><a href="CPUSchedulerSimulator.html">Next Project</a></li>
           </ol>
         </div>
 
       </div>
-
-
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Portfolio Details Section ======= -->
@@ -92,62 +90,46 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
-                
                 <div class="swiper-slide">
-                  <img src="assets/img/gesture_recog/Hand_Gesture_Recognition_Workflow.png" alt="">
-                  <p><b><center> Hand Gesture Recognition Workflow</center></b></p>
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/gesture_recog/CNN_Model_Scalar_Matrix.png" alt="">
-                  <p><b><center>CNN Model Scalar Matrix</center></b></p>
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/gesture_recog/Linear_Regression&Decision_Tree_output.png" alt="">
-                  <p><b><center>Linear Regression & Decision Tree Output</center></b></p>
+                  <img src="assets/img/wine_predict/pro_pic1.png" alt="">
+                  <p> <b>CNN Model performance with 3,26,410 trainable parameters</b></p>
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/gesture_recog/Table_comparision.png" alt="">
-                  <p><b><center>Table Comparision</center></b></p>
+                  <img src="assets/img/wine_predict/pro_pic2.png" alt="">
+                  <p> <b>CNN Model performance with 2,41,930 trainable parameters</b></p>
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/gesture_recog/Gesture_prediction.png" alt="">
-                  <p><b><center>Gesture Prediction Example</center></b></p>
+                  <img src="assets/img/wine_predict/pro_pic3.png" alt="">
                 </div>
-
-
               </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
 
-          <div class="col-lg-5">
+          <div class="col-lg-6">
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>:Computer Vision / Human-Computer Interaction</li>
-                <!-- <li><strong>Client</strong>: South Star Energy Services</li> -->
-                <li><strong>Project date</strong>: 28 May, 2021</li>
-                <li><strong>Project URL: </strong>: <a href="https://github.com/Nissi-Prabhatha/Gesture-Recognition-System">Project Link</a></li>
-                <li><strong>Paper</strong>: <a href="https://github.com/Nissi-Prabhatha/Gesture-Recognition-System/blob/main/Real_Time_Hand_Gesture_Recognition.pdf">Link</a></li>
+                <li><strong>Category</strong>: ML Classification</li>
+                <!-- <li><strong>Tableau Link </strong>: <a href="https://public.tableau.com/app/profile/yashwant.kandregula/viz/ATLCrimeAnalytics/Dashboard1#2">Link</a></li> -->
+                <!-- <li><strong>Client</strong>: Research</li> -->
+                <li><strong>Project date</strong>: 11 Apr, 2024</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/Nissi-Prabhatha/Cloud_Computing">Project Link</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>Project Description</h2>
               <ul>
-               <li> Objective: To enable intuitive and contactless human-computer interaction by recognizing and classifying real-time hand gestures using a webcam and Convolutional Neural Network (CNN), allowing users to control system functions through predefined gestures.​ </li>
-               <li> Designed a real-time hand gesture recognition system for human-computer interaction using webcam video feed. </li>
-               <li> Implemented image preprocessing steps like filtering, background subtraction, and binary thresholding to isolate hand gestures.</li>
-               <li> Used CNN (Convolutional Neural Network) for gesture classification, trained on a dataset of 700+ images for each of 9 gesture classes. </li>
-               <li>Achieved high performance with Recall: 95.28%, Precision: 94.21%, and F1 Score: 93.46%, outperforming other models like LDA, DTC, and RF. </li>
-               <li> Enabled system control operations using gestures such as palm, fist, 1-5, OK, and none — suitable for accessibility use cases. </li>
-               <li>Compared model performance across CNN, LR, LDA, RF, and others to validate CNN's superior accuracy in gesture recognition.</li>
-              
+                <li><b>Project Overview:</b> This project focuses on predicting the quality of wine based on its physicochemical properties using machine learning techniques.</li>
+                <li><b>Purpose:</b> The goal was to build a scalable, cloud-based solution capable of handling large datasets efficiently, enabling fast and accurate wine quality predictions for real-world scenarios.</li>
+                <li><b>Approach:</b> We developed a machine learning model using PySpark, trained it on a distributed computing environment through AWS EMR (Elastic MapReduce), and stored the trained model in Amazon S3 for reuse.</li>               
+                <li><b>Deployment:</b> To simplify future predictions without relying on cloud infrastructure, we containerized the entire pipeline using Docker, allowing the model to be executed locally with minimal setup.</li>                
+                <li><b>Technologies Used:</b> Python, PySpark (for distributed ML), AWS EMR (for scalable cluster management), Amazon S3 (for model storage), and Docker (for containerization and local deployment).</li>
+                            
             </div>
           </div>
           </div>
@@ -158,15 +140,6 @@
     </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
-
-<!-- Next Portfolio Page -->
-
-
-
-
-
-
-
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
