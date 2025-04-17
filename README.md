@@ -3,7 +3,7 @@
 Welcome to the repository for my personal portfolio!  
 This website showcases a collection of my selected projects across Machine Learning, Deep Learning, Full Stack Development, Cloud Computing, and Operating Systems.
 
-🔗 **Live Portfolio:** [My Portfolio Website](https://Nissi-Prabhatha.github.io/MyPortfolio/) *(Update after GitHub Pages setup)*
+🔗 **Live Portfolio:** [My Portfolio Website](https://Nissi-Prabhatha.github.io/MyPortfolio/)
 
 ---
 
