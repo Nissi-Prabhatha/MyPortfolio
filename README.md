@@ -1,6 +1,26 @@
 # 🌟 My Personal Portfolio Website
 
-Welcome to the repository for my personal portfolio!  
+## 🌟 About Me – A Little Note
+
+Hi there! 👋 I'm Nissi Prabhatha Guntur, a passionate technology enthusiast with a Master’s degree in Computer Science from NJIT and 2+ years of hands-on experience as a Data Engineer and Software Engineer.  
+I specialize in building scalable distributed systems, cloud-based data pipelines, and full-stack web applications using tools like Python, PySpark, AWS, React.js, and Docker.
+
+I'm currently **actively seeking opportunities** in roles such as:
+- Software Engineer
+- Software Developer
+- Data Engineer
+- Data Analyst
+
+✨ I genuinely believe in the power of technology to solve real-world problems and am excited to continue growing in environments that value innovation, scalability, and excellence.  
+I'm someone who cares deeply about writing clean, efficient code — but also someone who will cheerfully celebrate even small wins with my team!
+
+If you happen to stumble across my profile, please do **leave a little prayer** that I find the right opportunity to showcase my skills and dedication. 🙏✨  
+(And if you’re hiring... hey, let’s chat! 🚀)
+
+Thank you for visiting, and for being part of my journey in tech. 🌱
+
+---
+  
 This website showcases a collection of my selected projects across Machine Learning, Deep Learning, Full Stack Development, Cloud Computing, and Operating Systems.
 
 🔗 **Live Portfolio:** [My Portfolio Website](https://Nissi-Prabhatha.github.io/MyPortfolio/)
