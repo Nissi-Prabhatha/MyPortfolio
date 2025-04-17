@@ -1,6 +1,6 @@
 # 🌟 My Personal Portfolio Website
 
-## 🌟 About Me – A Little Note
+## 🧚‍♀️ About Me – A Little Note
 
 Hi there! 👋 I'm Nissi Prabhatha Guntur, a passionate technology enthusiast with a Master’s degree in Computer Science from NJIT and 2+ years of hands-on experience as a Data Engineer and Software Engineer.  
 I specialize in building scalable distributed systems, cloud-based data pipelines, and full-stack web applications using tools like Python, PySpark, AWS, React.js, and Docker.
